@@ -54,23 +54,21 @@ export default {
   methods: {
     updateProductSchemas() {
       if (!this.currentVariant) return;
-      
-      // Create product data from current variant
+
       const productData = {
-        id: this.currentVariant.id,
+        id: this.currentVariant.productId,
         name: this.currentVariant.name,
         description: this.currentVariant.description,
         sku: this.currentVariant.sku,
         slug: this.currentVariant.slug,
-        images: this.currentVariant.images || [],
-        price: this.currentVariant.price,
-        categories: this.currentVariant.categories || [],
+        images: this.currentVariant.images.map(img => img.url),
+        price: this.currentVariant.scopedPrice,
+        categories: this.currentVariant.categories,
         availability: this.currentVariant.availability,
         brand: 'Sunrise Fashion',
         rating: { average: 4.5, count: Math.floor(Math.random() * 100) + 1 }
       };
       
-      // Set product schemas with AI mixin
       this.setProductSchemas(productData);
     }
   }
