@@ -3,7 +3,7 @@
  * Provides AI-friendly endpoints and MCP protocol support
  */
 
-const express = require('express');
+const express = require('../node_modules/express');
 const path = require('path');
 
 const app = express();
@@ -76,6 +76,29 @@ const mockAiApiService = {
   },
 
   async getProducts(params = {}) {
+    if (params.id) {
+      const product = {
+        id: params.id,
+        name: `Product ${params.id}`,
+        description: `Description for product ${params.id}`,
+        price: { current: { amount: (Math.random() * 100).toFixed(2), currency: 'EUR' } },
+        category: 'women',
+        brand: 'Sunrise Fashion',
+        availability: 'in_stock',
+        images: [`https://ecom-001-jsonldmcp.k8s.it/images/product-${params.id}.jpg`],
+        url: `https://ecom-001-jsonldmcp.k8s.it/product/product-${params.id}`
+      };
+      return {
+        products: [product],
+        total: 1,
+        pagination: {
+          limit: 1,
+          offset: 0,
+          hasMore: false
+        }
+      };
+    }
+
     const mockProducts = [
       {
         id: 'prod-1',
