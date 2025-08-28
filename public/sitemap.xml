@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ecom-001-jsonldmcp.k8s.it/en/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://ecom-001-jsonldmcp.k8s.it/de/" />
+  </url>
+
+  <!-- Product Categories -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/products/women</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ecom-001-jsonldmcp.k8s.it/en/products/women" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://ecom-001-jsonldmcp.k8s.it/de/products/women" />
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/products/men</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ecom-001-jsonldmcp.k8s.it/en/products/men" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://ecom-001-jsonldmcp.k8s.it/de/products/men" />
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/products/accessories</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ecom-001-jsonldmcp.k8s.it/en/products/accessories" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://ecom-001-jsonldmcp.k8s.it/de/products/accessories" />
+  </url>
+
+  <!-- Sample Products -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/product/elegant-summer-dress/prod-1</loc>
+    <lastmod>2024-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ecom-001-jsonldmcp.k8s.it/images/dress-1-main.jpg</image:loc>
+      <image:caption>Elegant Summer Dress - Premium Cotton</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/product/classic-white-shirt/prod-2</loc>
+    <lastmod>2024-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ecom-001-jsonldmcp.k8s.it/images/shirt-1-main.jpg</image:loc>
+      <image:caption>Classic White Shirt - Business Casual</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Store Locator -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/stores</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/about</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/contact</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/shipping</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/returns</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/size-guide</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- AI-specific endpoints for discovery -->
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/api/ai/capabilities</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/api/ai/sitemap</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ecom-001-jsonldmcp.k8s.it/api/ai/schema</loc>
+    <lastmod>2024-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

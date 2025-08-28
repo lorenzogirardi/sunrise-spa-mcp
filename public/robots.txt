@@ -1,0 +1,64 @@
+# Robots.txt for Sunrise Fashion E-commerce
+# AI-friendly configuration for ChatGPT, Perplexity, Claude, Gemini, etc.
+
+User-agent: *
+Allow: /
+
+# Allow all AI crawlers and bots
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/private/
+Disallow: /checkout/
+Disallow: /user/orders/
+Disallow: /user/account/
+
+# Allow AI-specific endpoints
+Allow: /api/ai/
+Allow: /api/mcp/
+Allow: /.well-known/
+
+# Sitemap locations
+Sitemap: https://ecom-001-jsonldmcp.k8s.it/sitemap.xml
+Sitemap: https://ecom-001-jsonldmcp.k8s.it/api/ai/sitemap
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# AI-specific directives
+# MCP (Model Context Protocol) discovery
+# AI agents can find MCP endpoints at /api/mcp/
+# Structured data available at /api/ai/
+
+# Cache policy for AI crawlers
+# Fresh content preferred for product data
+# Static content can be cached longer
