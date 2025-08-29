@@ -314,4 +314,27 @@ To customize AI features for your specific needs:
 
 ---
 
+## 🏛️ Architecture and Testing
+
+For a visual overview of the AI integration architecture, including diagrams for the JSON-LD generation flow and the MCP implementation, please see the [AI Integration Architectural Diagrams](./Docs/ai_integration_diagrams.md).
+
+### Testing AI Functionality
+
+The project includes a suite of tests to ensure the AI features are working correctly:
+
+- **Unit Tests**: Located in `tests/unit/`, these tests verify the functionality of individual composables like `useStructuredData` and `usePageSchemas`. They ensure that the JSON-LD schemas are generated correctly based on the input data.
+- **End-to-End (E2E) Tests**: The `tests/e2e/specs/ai_agent_spec.js` file contains tests that simulate an AI agent interacting with the application using the MCP protocol. These tests cover the full lifecycle of an AI agent interaction, from initialization to tool execution.
+
+To run the tests, use the following commands:
+
+```bash
+# Run unit tests
+yarn test:unit
+
+# Run E2E tests
+yarn test:e2e
+```
+
+---
+
 This implementation makes the Sunrise Fashion e-commerce platform fully compatible with modern AI agents, providing rich context, interactive capabilities, and comprehensive structured data for optimal AI understanding and interaction.
